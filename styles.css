@@ -1,0 +1,9 @@
+:root { color-scheme: light; font: 100%/1.65 system-ui, sans-serif; color: #20242b; background: #f5f6f8; }
+body { margin: 0; }
+main { box-sizing: border-box; max-width: 52rem; margin: 2rem auto; padding: clamp(1.25rem, 5vw, 3rem); background: white; border-top: .3rem solid #193c64; }
+h1, h2 { line-height: 1.2; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); margin: .6em 0 .45em; }
+h2 { margin-top: 1.65em; font-size: 1.4rem; }
+a { color: #174f87; text-underline-offset: .16em; }
+.brand { font-weight: 700; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; margin-top: 2rem; }
